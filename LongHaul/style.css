@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.containerInicial{
+  min-width: 50vw;
+  min-height: 45vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.item{
+    width: 50vw;
+    height: 48.09vw;
+    background-color: white;
+    text-align: center;
+}
+
+
+
+.item2{
+    width: 50vw;
+    height: 48.09vw;
+}
+
