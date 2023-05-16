@@ -37,13 +37,16 @@
     font-size: 16px;
     font-style: italic;
     color: #8E8D7E;
+    margin-bottom: 40px;
 }
 
 .knowMyWorkBtn{
+    text-decoration: none;
     border: 2px solid #000000D4;
-    padding: 8px 15px;
+    padding: 10px 15px;
     font-size: 16px;
     font-weight: 300;
+    color: #000000D4;
     background: transparent;
     transition: all 0.3s;
     border-radius: 4px;
