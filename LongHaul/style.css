@@ -1,26 +1,79 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
-.containerInicial{
-  min-width: 50vw;
-  min-height: 45vw;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+.container1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
-.item{
-    width: 50vw;
-    height: 48.09vw;
-    background-color: white;
+.box{
     text-align: center;
+    width: 100vh;
+    height: 100vh;
+}
+
+.victorFace{
+    width: 100vh;
+    height: 100vh;
+}
+
+.longhaul{
+    margin-top: 10%;
+    width: 27%;
+}
+
+.text1{
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    margin-top: 24%;
+}
+
+.text2{
+    font-weight: 600;
+    font-size: 16px;
+    font-style: italic;
+    color: #8E8D7E;
+}
+
+.knowMyWorkBtn{
+    border: 2px solid #000000D4;
+    padding: 8px 15px;
+    font-size: 16px;
+    font-weight: 300;
+    background: transparent;
+    transition: all 0.3s;
+    border-radius: 4px;
+    margin-top: 1rem;
+}
+
+.knowMyWorkBtn:hover {
+    color: white;
+    background-color: #8E8D7E;
+    border-color: #8E8D7E;
+    transition: all 500ms;
 }
 
 
+.links{
+    margin-top: 15%;
 
-.item2{
-    width: 50vw;
-    height: 48.09vw;
 }
 
+.instagramLink , .instagram{
+    width: 33px;
+    text-decoration: none;
+}
+
+.VLink , .V{
+    width: 45px;
+    text-decoration: none;
+}
+
+.instagram:hover ,  .V:hover{
+    opacity: 50%;
+    
+}
