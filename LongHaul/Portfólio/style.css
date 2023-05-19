@@ -1,3 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: #8E8D7E;
+}
+
+.wrapper{
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 320px) {
     *{
         margin: 0;
