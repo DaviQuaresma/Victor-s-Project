@@ -1,24 +1,118 @@
 *{
   margin: 0;
   padding: 0;
-  font-family: 'Roboto Condensed', sans-serif;
-  background-color: #8E8D7E;
-}
-
-.wrapper{
   
 }
 
+.navbarHome{
+  background-color: #8E8D7E;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0px;
+}
+
+.navContent{
+  align-items: center;
+}
+
+.navBox1{
+  margin-left: 19%;
+  list-style: none;
+}
+
+.navBox2{
+  display: flex;
+  justify-content: right;
+  flex-direction: row;
+  list-style: none;
+  margin-right: 30%;
+  margin-top: 20px;
+}
+
+.nav-item{
+  margin-right: 35px;
+}
+
+.navlink{
+  font-family: 'Alegreya Sans SC', sans-serif;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 14px;
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  letter-spacing: 3px;
+  
+}
+
+.navlink1{
+  width: 30%;
+  text-align: center;
+  list-style: none;
+  text-decoration: none;
+  margin-top: 10px;
+}
 
 
+#photoShow{
+  background-color: #8E8D7E;
+  display: grid;
+  gap: 9px;
+}
+
+.photo{
+  width: 100%;
+}
 
 
+.efeito {
+  opacity: 1;
+  position: relative;
+}
 
+.efeito figure .box-black {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 1;
+  background-color: #000;
+  transition: all 0.1s ease-in;
+}
 
+.efeito figure {
+  position: relative;
+}
 
+.efeito figcaption {
+  color: #000;
+  position: absolute;
+  opacity: 0;
+  left: 0;
+  padding-left: 8%;
+  bottom: 53%;
+  color: #FFF;
+  font-size: 26px;
+  text-align: left;
+  display: block;
+  margin-left: auto;
+  transition: all 0.2s ease-in;
+  z-index: 2;
+  width: 100%;
+  letter-spacing: 2.5px;
+  font-family: 'Alegreya Sans SC';
+  font-weight: 500;
+}
 
+.efeito:hover figure .box-black {
+  opacity: 0.5;
+  height: 100%;
+}
 
-
+.efeito:hover figure figcaption {
+  opacity: 1;
+}
 
 
 
