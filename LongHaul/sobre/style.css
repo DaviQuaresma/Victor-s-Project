@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+.navbarHome{
+    background-color: #8E8D7E;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0px;
+  }
+  
+.navContent{
+    align-items: center;
+  }
+  
+.navBox1{
+    margin-left: 19%;
+    list-style: none;
+  }
+  
+.navBox2{
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+    list-style: none;
+    margin-right: 30%;
+    margin-top: 20px;
+  }
+  
+.nav-item{
+    margin-right: 35px;
+  }
+  
+.navlink{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 14px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 3px;
+    
+  }
+  
+.navlink:hover{
+    color: #000000C2;
+    transition: all 0.2s ease-in;
+  }
+  
+.navlink1{
+    width: 30%;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+
+.photo{
+    width: 100%;
+  }
